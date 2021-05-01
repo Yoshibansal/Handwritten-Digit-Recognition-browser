@@ -1,0 +1,73 @@
+body {
+  background-color: whitesmoke;
+  margin: 1em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+.hero {
+  text-align: center;
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-1,
+.container-2 {
+  margin-left: 5em;
+  display: inline;
+  float: left;
+}
+
+.container-1 {
+  margin-top: 3em;
+}
+
+.container-2 {
+  margin-left: 12em;
+}
+
+.btn {
+  border: 1px solid black;
+  font-size: 20px;
+  width: 7em;
+  border-radius: 2em;
+}
+
+.btn-cta {
+  padding: 1em;
+}
+
+.footer-sec {
+  margin-top: 50em;
+}
+
+footer {
+  margin-top: 5em;
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: 25px;
+  width: auto;
+}
+
+@media only screen and (max-width: 700px) {
+}

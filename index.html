@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hand Written Digit Recognition</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hand Written Digit Recognition</h1>
+    </div>
+
+    <section class="hero">
+      <div class="container-1">
+        <div id="canvas_box_wrapper" class="canvas-box-wrapper">
+          <div id="canvas_box" class="canvas-box"></div>
+          <div class="btn-cta">
+            <button id="clear-button" class="btn">Clear</button>
+          </div>
+          <div class="btn-cta">
+            <button id="predict-button" class="btn">Predict</button>
+          </div>
+        </div>
+      </div>
+      <div class="container-2">
+        <div id="result_box" class="result_box">
+          <canvas
+            id="chart_box"
+            class="chart_box"
+            width="500"
+            height="500"
+          ></canvas>
+        </div>
+        <div class="prediction-text"></div>
+      </div>
+    </section>
+
+    <section class="footer-sec">
+      <div>
+        <div class="container-cta">
+          <p>
+            For real world application; it is important for a model to be deployed in such a way that everyone can use it. 
+            <br> Training takes a lot of time that's why the best way is to deploy trained model..
+
+            <br /><br />
+            This model is pretrained on dataset MNIST
+            <br /><br />
+            Tech used: Python, HTML, CSS, JS, JQuery, Tensorflow, TensorflowJS 
+            <!-- <br>
+            <ul>
+              <li>&lt;HTML&gt;</li>
+            </ul> -->
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Yoshi Bansal &copy
+        <a href="https://github.com/Yoshibansal">
+          <img src="images/github-logo.svg" alt="github logo" /> </a
+        ><br />
+        <a href="mailto:bansalyoshi@gmail.com">bansalyoshi@gmail.com</a>
+      </p>
+      <p>
+        <a href="https://github.com/Yoshibansal/BrowserML-CSV" target="_blank" alt="source code link"/>Source Code</a>
+      </p>
+    </footer>
+    
+
+    <script src="index.js"></script>
+  </body>
+</html>
